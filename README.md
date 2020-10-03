@@ -1,6 +1,14 @@
+<div align="center">
+
 # Containerized Settings Probot
 
-A containerized [Settings Probot](https://github.com/probot/settings).
+[![MediumLink](https://img.shields.io/badge/Read%20about%20another%20image%20on%20-Medium-lightgrey?style=flat-square)][medium] [![MIT License](https://img.shields.io/dub/l/vibe-d.svg?style=flat-square)](https://github.com/JoshuaTheMiller/SettingsProbot-Image/blob/main/LICENSE) 
+
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/trfc/settingsprobot?style=flat-square)][dockerHub] [![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/trfc/settingsprobot?style=flat-square)][dockerHub] [![Docker Pulls](https://img.shields.io/docker/pulls/trfc/settingsprobot?style=flat-square)][dockerHub]
+
+*A containerized [Settings Probot](https://github.com/probot/settings).*
+
+</div>
 
 ## Running
 
@@ -26,3 +34,6 @@ $WEBHOOK_SECRET=<YourWebHookSecret>
 $WEBHOOK_PROXY_URL=<YourWebHookProxyUrl>
 docker run -it -p 3000:3000 --name settings_probot -e APP_ID=$APP_ID -e PRIVATE_KEY=$PRIVATE_KEY -e WEBHOOK_SECRET=$WEBHOOK_SECRET -e WEBHOOK_PROXY_URL=$WEBHOOK_PROXY_URL trfc:settingsprobot 
 ```
+
+[dockerHub]: https://hub.docker.com/repository/docker/trfc/settingsprobot
+[medium]: https://bit.ly/MediumTerrariaServer
