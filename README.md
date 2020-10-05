@@ -4,7 +4,7 @@
 
 [![MediumLink](https://img.shields.io/badge/Read%20about%20another%20image%20on%20-Medium-lightgrey?style=flat-square)][medium] [![MIT License](https://img.shields.io/dub/l/vibe-d.svg?style=flat-square)](https://github.com/JoshuaTheMiller/SettingsProbot-Image/blob/main/LICENSE) 
 
-[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/trfc/settingsprobot?style=flat-square)][dockerHub] [![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/trfc/settingsprobot?style=flat-square)][dockerHub] [![Docker Pulls](https://img.shields.io/docker/pulls/trfc/settingsprobot?style=flat-square)][dockerHub]
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/trfc/settingsprobot?style=flat-square)][dockerHub] [![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/trfc/settingsprobot?style=flat-square)][dockerHub] ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/trfc/settingsprobot/latest?style=flat-square) [![Docker Pulls](https://img.shields.io/docker/pulls/trfc/settingsprobot?style=flat-square)][dockerHub]
 
 *A containerized [Settings Probot](https://github.com/probot/settings).*
 
