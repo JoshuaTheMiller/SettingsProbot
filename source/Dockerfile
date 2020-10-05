@@ -14,7 +14,6 @@ RUN apt-get update && \
     npm install;
 
 FROM node as probotPrep
-RUN npm install probot
 COPY --from=builder settings_probot/ ./settings_probot
 WORKDIR /settings_probot
 RUN npm install probot
