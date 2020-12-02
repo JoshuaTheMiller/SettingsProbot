@@ -10,6 +10,10 @@
 
 </div>
 
+## Why?
+
+This was created as an example of how a public (& open source) repository/service that you do not own can be containerized (one example among many).
+
 ## Running
 
 At a minimum, APP_ID and PRIVATE_KEY must be supplied to the container for the application to work. Webhook secret may also be passed:
